@@ -1,0 +1,11 @@
+MÉTODO GET:
+curl localhost:3000/produtos
+
+MÉTODO POST:
+curl.exe -X POST "http://localhost:3000/produtos" -H "Content-Type: application/json" -d "{\"nome\":\"Exemplo\",\"fornecedor\":\"Exemplo\",\"endereco_fornecedor\":\"Exemplo\",\"quantidade\":0,\"endereco\":\"Exemplo\",\"preco_unitario\":0}"
+
+MÉTODO DELETE:
+curl -X DELETE localhost:3000/produtos/1
+
+MÉTODO PUT:
+curl.exe -X PUT "http://localhost:3000/produtos/8" -H "Content-Type: application/json" -d "{\"nome\":\"Exemplo Atualizado\",\"quantidade\":5,\"preco_unitario\":99}
